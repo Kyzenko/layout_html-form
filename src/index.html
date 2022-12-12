@@ -12,7 +12,7 @@
   </head>
   <body>
     <script type="text/javascript" src="./main.js"></script>
-    <form action="https://mate-academy-form-lesson.herokuapp.com/create-application" method="get">
+    <form action="https://mate-academy-form-lesson.herokuapp.com/create-application" method="post">
       <fieldset class="formBlock">
         <legend>Personal information</legend>
         <label class="classForm">Surname:
@@ -93,7 +93,8 @@
             autocomplete="off"
             name="comments"
             minlength="10"
-            maxlength="100">
+            maxlength="100"
+          >
           </textarea>
         </label>
         <label>Would you recommend us?

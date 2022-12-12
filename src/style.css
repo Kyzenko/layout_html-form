@@ -1,9 +1,10 @@
 /* styles go here */
-.classForm {
-  padding-bottom: 10px;
-  display: block;
-}
 
 .formBlock {
   margin-bottom: 20px;
+}
+
+.classForm {
+  margin-bottom: 10px;
+  display: block;
 }
